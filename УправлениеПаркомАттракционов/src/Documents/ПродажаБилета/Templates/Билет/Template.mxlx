@@ -117,7 +117,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Тип билета:</v8:content>
+							<v8:content>Сумма документа:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -125,7 +125,7 @@
 			<c>
 				<c>
 					<f>12</f>
-					<parameter>Номенклатура</parameter>
+					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
 		</row>
@@ -135,48 +135,14 @@
 		<row>
 			<columnsID>872a3146-aa71-469a-9534-4f461e0fc0f2</columnsID>
 			<formatIndex>13</formatIndex>
-			<c>
-				<i>1</i>
-				<c>
-					<f>14</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Количество посещений:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>15</f>
-					<parameter>КоличествоПосещений</parameter>
-				</c>
-			</c>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>5</index>
 		<row>
 			<columnsID>872a3146-aa71-469a-9534-4f461e0fc0f2</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>14</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>16</f>
-					<parameter>СуммаДокумента</parameter>
-				</c>
-			</c>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -190,7 +156,7 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>14</f>
 				</c>
 			</c>
 		</row>
@@ -204,14 +170,14 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<formatIndex>18</formatIndex>
+			<formatIndex>15</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<formatIndex>19</formatIndex>
+			<formatIndex>16</formatIndex>
 			<c>
 				<i>3</i>
 				<c>
@@ -225,16 +191,6 @@
 	<vgRows>10</vgRows>
 	<merge>
 		<r>3</r>
-		<c>2</c>
-		<w>1</w>
-	</merge>
-	<merge>
-		<r>4</r>
-		<c>2</c>
-		<w>1</w>
-	</merge>
-	<merge>
-		<r>5</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
@@ -278,13 +234,13 @@
 		<width>642</width>
 	</format>
 	<format>
-		<width>149</width>
+		<width>249</width>
 	</format>
 	<format>
-		<width>282</width>
+		<width>290</width>
 	</format>
 	<format>
-		<width>232</width>
+		<width>102</width>
 	</format>
 	<format>
 		<fillType>Template</fillType>
@@ -301,36 +257,10 @@
 		<font>0</font>
 	</format>
 	<format>
-		<font>0</font>
 		<width>128</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<font>0</font>
-		<width>144</width>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<font>2</font>
-	</format>
-	<format>
-		<width>128</width>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<width>144</width>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
@@ -341,6 +271,9 @@
 		<fillType>Parameter</fillType>
 		<format/>
 		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<font>2</font>
 	</format>
 	<format>
 		<width>393</width>
